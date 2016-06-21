@@ -1,0 +1,10 @@
+<?php 
+	require_once 'php/controller/controller.php';
+
+	$temp = '';
+	$selfInput = $_POST['input'];
+
+	$show .= text($selfInput);
+	$show .= systemOutput();
+
+	echo $show;
